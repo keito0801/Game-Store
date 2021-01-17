@@ -49,10 +49,11 @@ table {
 
 /*Reset ends here*/
 
+
+
 header{
     width: 100%;
-   
-    background-color: rgb(122, 17, 17); 
+    background-color: rgb(39, 19, 150); 
 }
 .header{
     
@@ -72,9 +73,6 @@ a.headertitle{
 }
 
 div.logo{
-    background: url(img/cane.png) no-repeat;
-    background-size: 150px;
-    padding-left: 150px;
     transition: .3s;
 }
 
@@ -108,4 +106,10 @@ header nav a{
 header nav a:hover {
 color:black;
 font-size:1.8rem;
+}
+
+img{
+    width: 30%;
+    height: auto;
+    padding: 10%;
 }
