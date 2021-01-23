@@ -1,59 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/*Reset ends here*/
-
-
-
+/*banner*/
 header{
     width: 100%;
-    background-color: rgb(39, 19, 150); 
+    background-color: rgb(141, 12, 12); 
 }
 .header{
     
@@ -82,7 +31,7 @@ div.logo:hover{
 }
 
 header div:last-child{
-    width: 50%;
+    width: 20%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -108,8 +57,54 @@ color:black;
 font-size:1.8rem;
 }
 
-img{
+div.logo img{
     width: 30%;
     height: auto;
     padding: 10%;
+}
+
+/*Carousel*/
+section#carousel > figure > img{
+    display: none;
+    margin: 0px auto;
+}
+
+section#carousel > figure.visible > img{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 500px;
+}
+
+section#carousel > figure > figcaption{
+    display: none;
+}
+
+section#carousel > figure.visible > figcaption{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/**/
+.top{
+border: solid black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width:50%;
+
+}
+
+.image{
+    border:solid black;
+    width: 20%;
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 1.2rem ;
+    background-color: blue;
 }
