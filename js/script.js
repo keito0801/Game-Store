@@ -24,3 +24,6 @@ function startPlayback(){
     setTimeout(moveForward, slideInterval);
 }
 startPlayback();
+
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
