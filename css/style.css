@@ -1,94 +1,63 @@
 
+body{
+    background-color: #2a475e;
+}
 /*banner*/
-header{
-    width: 100%;
-    background-color: rgb(141, 12, 12); 
-}
-.header{
+h1{
+    color: whitesmoke;
+    font-size: 5rem;
     
-    display: flex;
-    justify-content: space-between;
-    margin: 1.5% 5%;
-    padding: 2%;
 }
 
+.header-container{
+    background-color: #171a21;
 
-a.headertitle{
-    font-family: 'Langar', cursive;
-    font-size: 3.6em;
-    color: white;
-    text-shadow: black 1px 0 10px;
+}
+nav{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    margin-left: 14%;
+    justify-content: center;
+    height: 1%;
+    margin-top: 3.2%;
+}
+
+nav a{
     text-decoration: none;
+    color:whitesmoke;
+    font-size: 2.5rem;
+    margin: 0 5%;
+    margin-left: 5%;
+    
 }
 
-div.logo{
-    transition: .3s;
+nav a:hover{
+    text-shadow:2px 2px 10px white;
+    color: white;
 }
 
-div.logo:hover{
-    color:black;
-
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 5% 10px;
+    
 }
 
-header div:last-child{
-    width: 20%;
-    display: flex;
+.header-flex{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.headerlogo{
+    display:flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 1%;
+
 }
-
-
-header nav{
-    display: flex;
-    justify-content: space-around;
-}
-
-header nav a{
-    text-decoration: none;
-    margin: 0 35px;
-    font-size: 1.6rem;
-    color: white;
-    text-shadow: black 1px 0 10px;
-    transition: .3s;
-}
-
-header nav a:hover {
-color:black;
-font-size:1.8rem;
-}
-
-div.logo img{
-    width: 30%;
-    height: auto;
-    padding: 10%;
-}
-
 /*Carousel*/
-section#carousel > figure > img{
-    display: none;
-    margin: 0px auto;
-}
 
-section#carousel > figure.visible > img{
-    display: block;
-    position: relative;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 500px;
-}
-
-section#carousel > figure > figcaption{
-    display: none;
-}
-
-section#carousel > figure.visible > figcaption{
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-}
 
 img{
     width: 100%;
@@ -109,15 +78,32 @@ h3{
     color:red;
 }
 
-h1{
-    margin:50px;
+h2{
+   color: white;
+   font-size: 2.5rem;
 }
-
+.subtitles{
+    border-right: 3px solid white;
+    width: 10%;
+    border-bottom: 3px solid white;
+    margin: 2.5% 0 0 5%;
+    background-color: #1b2838;
+    text-align:center;
+    border-top-left-radius: 10%;
+}
 /**/
 .offer-container {
     width: 400px;
     margin: 50px auto;
     background-color: lightsteelblue;
+}
+
+.container{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 5%;
+    margin-bottom: 6%;
+
 }
 
 @media only screen and (min-width: 992px) {
