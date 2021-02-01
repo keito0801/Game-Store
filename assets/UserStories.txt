@@ -1,0 +1,6 @@
+User Stories
+As a customer I want to be able to view and browse through new games offered on the site.
+
+As a customer I want to be able to subscribe via email to receive new deals on future items
+
+As a customer I want to easily navigate through tabs to find the right deal I am looking for. 
