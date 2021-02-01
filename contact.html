@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <!-- Add icon library -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!--font-family: 'Noto Sans TC', sans-serif;
+       font-family: 'Noto Serif', serif;-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="assets/bootstrap-5.0.0-beta1-dist/css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script type="text/javascript" src="js/script.js"></script>
+   <script src ="assets/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js"></script>
+   
 </head>
+<header>
+    <div class="header-container">
+      <div class="header-flex">
+        <div class="headerlogo">
+        <img src="img/wolfhead.png">
+        <h1>Keith Games</h1>
+        </div>
+        <nav>
+          <a href ="index.html">Home</a>
+          <a href ="contact.html">Contact</a>
+          <a href ="#">About</a>
+        </nav>
+      </div>
+    </div>
+</header>
 <body>
-    
+    <form>
+        <fieldset>
+            <legend>Subcribe for emails on new deals</legend>
+            First Name: <input name="firstname" type="text" required="required" placeholder="Enter your first name" />
+            Last Name: <input name="lastname" type="text" required="required" placeholder="Enter your last name" />
+            Email Adress: <input name="emailAdress" type="email" required="required" 
+            placeholder="Enter your e-mail address" />
+           
+        </fieldset>
+        <input type ="submit" value="Enroll" />
+    </form>
+
+    <footer>
+        <div class="footerFlex">
+        <nav class="footerNav">
+          <a href ="#">Home</a>
+          <a href ="contact.html">Contact</a>
+          <a href ="#">About</a>
+        </nav>
+      </div>
+        <div class="socialMedia">
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </footer>
 </body>
 </html>

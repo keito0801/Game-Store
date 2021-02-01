@@ -131,8 +131,6 @@ h2{
 }
 
 footer{
-    
-    
     width: 100%;
     border: 1px solid black;
     text-align: center;
@@ -162,6 +160,34 @@ footer{
 div.socialMedia a{
     color: #66c0f4;
 }
+
+form{
+    padding:50px;
+}
+
+fieldset{
+    width: 500px;
+}
+
+input[type=text], select {
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 @media only screen and (min-width: 992px) {
     .offers {
         display: flex;
