@@ -1,4 +1,4 @@
-var slideInterval = 4500;
+/*var slideInterval = 4500;
 
 function getFigures(){
     return document.getElementById('carousel').getElementsByTagName('figure')
@@ -26,4 +26,8 @@ function startPlayback(){
 startPlayback();
 
 var myCarousel = document.querySelector('#myCarousel')
-var carousel = new bootstrap.Carousel(myCarousel)
+var carousel = new bootstrap.Carousel(myCarousel)*/
+
+const hh  = document.querySelector('h1');
+//hh.textContent = 'new header';
+console.log(hh);
